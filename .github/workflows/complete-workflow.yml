@@ -45,6 +45,10 @@ jobs:
           target: 'https://juice-shop.herokuapp.com'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
+          permissions:
+  issues: write
+  contents: read
+  security-events: write
 
 
 
